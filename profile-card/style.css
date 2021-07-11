@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*--body--*/
+
+
+main{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	
+
+}
+
+body{
+	background-color: #19a1ad;
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+
+
+
+	
+
+	
+
+}
+
+
+.card{box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 18px;
+
+}
+
+.card-top{
+    height: 18vh;
+    width: 320px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+	
+	
+
+}
+
+
+.card-bottom{
+	background-color: white;
+	height: 35vh;
+	width: 320px;
+	margin-top: -5px;
+	border-bottom-right-radius: 18px;
+	border-bottom-left-radius: 18px;
+
+	
+
+}
+
+
+.image-profile{
+	position: absolute;
+	border: 5px solid white;
+	border-radius: 50%;
+	align-items: center;
+	left: 46%;
+	top: 37%;
+	background-color: white;
+}
+.name-victor{
+	font-size: 16px;
+	position: absolute;
+	top: 55%;
+	left: 45%;
+
+}
+
+span{
+	color: gray;
+	font-weight: 400;
+	margin-left: 6px;
+}
+
+.profile{
+	letter-spacing: 1px;
+}
+
+.city{
+	position: absolute;
+	color: gray;
+	font-size: 13px;
+	font-weight: 400;
+	top: 59%;
+	left: 46%;
+	letter-spacing: 1px;
+
+}
+
+
+.card-social{
+	
+	margin: auto;
+	display: flex;
+	padding-top: 25vh;
+	padding-left: 1vw;
+	
+
+
+
+	
+}
+
+div h2 {
+
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+	font-size: 15px;
+	padding-left: 1.1vw;
+	letter-spacing: 1px;
+}
+
+
+p{
+	display: inline-block;
+	
+	
+	font-weight: 400;
+	font-size: 8px;
+	margin-right: 25px;
+	padding-left: 2.5vw;
+
+}
+
+
+#followers{
+	position: absolute;
+	left: 39%;
+	top: 70%;
+}
+
+#likes{
+
+	position: absolute;
+	left: 46.4%;
+	top: 70%;
+
+}
+
+#photos{
+
+	position: absolute;
+	left: 52.8%;
+	top: 70%;
+}
+
+.line-division{
+	position: absolute;
+	height: 1px;
+	width: 320px;
+	background-color: lightgray;
+	top: 63.5%;
+}
+
+
+
+
